@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="all">
+
+  <header class="index">
+    <div id="top">
+      <div class="wrapper">
+        <div class="container clr">
+
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.svg" alt="">
+            </a>
+          </div>
+
+          <div class="mobile">
+            <div class="social">
+                <a href="#">
+                  <img src="images/vk.svg">
+                </a>
+                <a href="#">
+                  <img src="images/insta.svg">
+                </a>
+                <a href="#">
+                  <img src="images/tg.svg">
+                </a>
+                <a href="#">
+                  <img src="images/wa.svg">
+                </a>
+            </div>
+            <div class="btns">
+              <div class="lng">
+                <div>
+                  <a href="#" class="active">ru</a>
+                  <a href="#">it</a>
+                </div>
+              </div>
+              <div class="call">
+                <button class="openModalBtn">Позвонить</button>
+              </div>
+            </div>
+            <div class="call"><span>+39 331 652 3296</span></div>
+          </div>
+
+          <div class="menu">
+
+            <div class="lng">
+              <div>
+                <a href="#" class="active">ru</a>
+                <a href="#">it</a>
+              </div>
+            </div>
+
+            <div class="youtube">
+              <span>Подписывайтесь:</span>
+              <a href="#" class="yt">
+                <img src="images/youtube.svg">
+                <!-- <img src="images/youtub.svg" class="hov"> -->
+              </a>
+              <a href="#" class="vk-h">
+                <img src="images/vk.svg">
+              </a>
+              <a href="#" class="in-h">
+                <img src="images/insta.svg">
+              </a>
+            </div>
+
+            <div class="write" >
+              <span>Пишите:</span>
+              <a href="#" class="tg-h">
+                <img src="images/tg.svg">
+              </a>
+              <a href="#" class="wa-h">
+                <img src="images/wa.svg">
+              </a>
+            </div>
+
+            <div class="call">
+              <span>+39 331 652 3296</span>
+              <button type="button" class="openModalBtn">Заказать звонок</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ************************ -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close"><img src="./images/close.svg" alt=""></span>
+        <h2>Заказать звонок</h2>
+        <form id="myForm" class="myForm">
+          <label for="name">Имя:</label>
+          <input type="text" id="name" placeholder="Александр" required><br>
+          <label for="phone">Телефон:</label>
+          <input type="text" id="phone" placeholder="+7 (123) 345 67 89" inputmode="tel" required><br>
+          <p><span class="star">*</span>Поля обязательные для заполнения</p>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <!-- Модальное окно с сообщением "Отправлено!" -->
+<div id="successModal" class="modal">
+  <div class="modal-content">
+    <span class="close"><img src="./images/close.svg" alt=""></span>
+    <img src="./images/send.svg" alt="">
+    <h2>Отправлено!</h2>
+  </div>
+</div>
+<!-- ********************************  -->
+    <div class="slogan">
+      <div></div>
+    </div>
+
+    <div class="slogan-3"></div>
+
+    <div id="icons-top">
+      <div class="wrapper">
+        <div class="container">
+          <div class="icons">
+
+            <div class="icon">
+              <div class="icon-img">
+                <img src="images/t1.svg">
+              </div>
+              <div class="icon-txt">Лучшие образы по модным трендам</div>
+            </div>
+
+            <div class="icon">
+              <div class="icon-img">
+                <img src="images/t2.svg">
+              </div>
+              <div class="icon-txt">Уникальный авторский индивидуальный стиль</div>
+            </div>
+
+            <div class="icon">
+              <div class="icon-img">
+                <img src="images/t3.svg">
+              </div>
+              <div class="icon-txt">Обновление гардероба на все случаи</div>
+            </div>
+
+            <div class="icon">
+              <div class="icon-img">
+                <img src="images/t4.svg">
+              </div>
+              <div class="icon-txt">Всегда на связи, полное сопровождение</div>
+            </div>
+
+            <div class="icon">
+              <div class="icon-img">
+                <img src="images/t5.svg" style="margin-left: -17px">
+              </div>
+              <div class="icon-txt">Оперативность и пунктуальность в работе</div>
+            </div>
+
+            <div class="icon">
+              <div class="icon-img">
+                <img src="images/t6.svg">
+              </div>
+              <div class="icon-txt">Споровождение онлайн-покупок </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="icons">
+    <div class="wrapper">
+      <div class="container">
+        <div class="icons">
+
+          <div class="icon">
+            <div class="icon-img">
+              <img src="images/t1.svg">
+            </div>
+            <div class="icon-txt">Лучшие образы по модным трендам</div>
+          </div>
+
+          <div class="icon">
+            <div class="icon-img">
+              <img src="images/t2.svg">
+            </div>
+            <div class="icon-txt">Уникальный авторский индивидуальный стиль</div>
+          </div>
+
+          <div class="icon">
+            <div class="icon-img">
+              <img src="images/t3.svg">
+            </div>
+            <div class="icon-txt">Обновление гардероба на все случаи</div>
+          </div>
+
+          <div class="icon">
+            <div class="icon-img">
+              <img src="images/t4.svg">
+            </div>
+            <div class="icon-txt">Всегда на связи, полное сопровождение</div>
+          </div>
+
+          <div class="icon">
+            <div class="icon-img">
+              <img src="images/t5.svg" style="margin-left: -17px">
+            </div>
+            <div class="icon-txt">Оперативность и пунктуальность в работе</div>
+          </div>
+
+          <div class="icon">
+            <div class="icon-img">
+              <img src="images/t6.svg">
+            </div>
+            <div class="icon-txt">Споровождение онлайн-покупок </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="mt-5">ЧТО ВЫ ПОЛУЧАЕТЕ В ПРОЦЕССЕ РАБОТЫ СО МНОЙ</h2>
+        </div>
+        <div class="section-content">
+          <div class="about">
+
+            <div class="about-item">
+              <div>
+                <div class="about-img">
+                  <img src="images/about-1.jpg" alt="">
+                </div>
+                <div class="about-text">
+                  <div>ЭМОЦИИ</div>
+                  <p>Вы почувствуете радость от того, что ваша внешность будет преобразована в соответствие с вашей мечтой об образе и стиле, что вы станете выглядеть еще привлекательнее, что вы ощутите себя особенной и важной от внимания и заботы со стороны профессионального стилиста.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-item">
+              <div>
+                <div class="about-img">
+                  <img src="images/about-2.jpg" alt="">
+                </div>
+                <div class="about-text">
+                  <div>ПРЕОБРАЖЕНИЕ</div>
+                  <p>Вы получите удовлетворение от собственного отражения в зеркале и радость от своих красивых ,стильных и удобных разных образов в одежде ,которые придадут вам больше чувства уверенности и желанию дарить тепло и любовь близким.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-item">
+              <div>
+                <div class="about-img">
+                  <img src="images/about-3.jpg" alt="">
+                </div>
+                <div class="about-text">
+                  <div>УВЕРЕННОСТЬ</div>
+                  <p>Вы поверите в новые возможности, узнаете о себе много нового и позитивного, а самовыражение себя через внешний вид позволит создать нужное о себе впечатление, добиться результатов и почувствовать себя счастливой.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-item">
+              <div>
+                <div class="about-img">
+                  <img src="images/about-4.jpg" alt="">
+                </div>
+                <div class="about-text">
+                  <div>ПРИВЛЕКАТЕЛЬНОСТЬ</div>
+                  <p>Окружающие мужчины будут восхищаться вами потому, что после внешнего преображения от вас будет исходить уверенность и чувство наслаждения от жизни, как вы сами начнете любить и ценить себя больше ,так и окружающие вас люди.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tarif">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2 >ТАРИФЫ И СТОИМОСТЬ</h2>
+        </div>
+        <div class="section-content">
+          <div class="tarifs">
+
+            <div class="tarif">
+              <div>
+                <h3>STANDART</h3>
+                <ul class="checklist">
+                  <li>Онлайн-консультация</li>
+                  <li>Разбор гардероба</li>
+                  <li>Создание образов</li>
+                  <li class="none">Онлайн подбор одежды</li>
+                  <li class="none">Подбор аксессуаров</li>
+                  <li class="none">Онлайн-шопинг</li>
+                  <li class="none">Советы и помощь</li>
+                  <li class="none">Формирование полного гардероба</li>
+                </ul>
+                <div class="price">50 € / 4 500 ₽</div>
+                <div class="btns">
+                  <button class="btn scroll openModalBtn2" data-title="STANDART" data-price="50 € / 4 500 ₽">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="tarif">
+              <div>
+                <h3>LUXE</h3>
+                <ul class="checklist">
+                  <li>Онлайн-консультация</li>
+                  <li>Разбор гардероба</li>
+                  <li>Создание образов</li>
+                  <li>Онлайн подбор одежды</li>
+                  <li>Подбор аксессуаров</li>
+                  <li class="none">Онлайн-шопинг</li>
+                  <li class="none">Советы и помощь</li>
+                  <li class="none">Формирование полного гардероба</li>
+                </ul>
+                <div class="price">70 € / 6 200 ₽</div>
+                <div class="btns">
+                  <button class="btn scroll openModalBtn2" data-title="LUXE" data-price="70 € / 6 200 ₽">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="tarif">
+              <div>
+                <h3>EXCLUSIVE</h3>
+                <ul class="checklist">
+                  <li>Онлайн-консультация</li>
+                  <li>Разбор гардероба</li>
+                  <li>Создание образов</li>
+                  <li>Онлайн подбор одежды</li>
+                  <li>Подбор аксессуаров</li>
+                  <li>Онлайн-шопинг</li>
+                  <li>Советы и помощь</li>
+                  <li>Формирование полного гардероба</li>
+                </ul>
+                <div class="price">100 € / 8 900 ₽</div>
+                <div class="btns">
+                  <button class="btn scroll openModalBtn2 " data-title="EXCLUSIVE" data-price="100 € / 8 900 ₽">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
+<!-- ************************* -->
+        <div id="myModal2" class="modal">
+          <div class="modal-content2">
+            <span class="close absolute"><img src="./images/close.svg" alt=""></span>
+            <h2>Оставить заявку</h2>
+            <div id="modalTitle"></div>
+            <div id="modalPrice"></div>
+            <form id="myForm" class="myForm">
+              <label for="name">Имя:</label>
+              <input type="text" id="name" placeholder="Александр" required><br>
+              <label for="phone">Телефон:</label>
+              <input type="text" id="phone" placeholder="+7 (123) 345 67 89" inputmode="tel" required><br>
+              <p><span class="star">*</span>Поля обязательные для заполнения</p>
+              <button type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+        <!-- Модальное окно с сообщением "Отправлено!" -->
+        <div id="successModal2" class="modal">
+          <div class="modal-content">
+          <span class="close"><img src="./images/close.svg" alt=""></span>
+          <img src="./images/send.svg" alt="">
+          <h2>Отправлено!</h2>
+          </div>
+        </div>
+<!-- ********************************** -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2>ПОДРОБНЕЕ О МОИ УСЛУГАХ</h2>
+        </div>
+        <div class="section-content">
+          <div class="service-tabs">
+
+            <div class="service-tab-head">
+              <ul>
+                <li class="active" data-target="#tab-1">
+                  <div><span>1. Онлайн-консультация</span></div>
+                  <div class="mtab" id="tab-11">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">1.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+                <li data-target="#tab-2">
+                  <div><span>2. Разбор гардероба</span></div>
+                  <div class="mtab" id="tab-21">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">2.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+                <li data-target="#tab-3">
+                  <div><span>3. Создание образов</span></div>
+                  <div class="mtab" id="tab-31">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">3.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+                <li data-target="#tab-4">
+                  <div><span>4. Онлайн подбор одежды</span></div>
+                  <div class="mtab" id="tab-41">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">4.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+                <li data-target="#tab-5">
+                  <div><span>5. Подбор аксессуаров</span></div>
+                  <div class="mtab" id="tab-51">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">5.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+                <li data-target="#tab-6">
+                  <div><span>6. Онлайн-шопинг</span></div>
+                  <div class="mtab" id="tab-61">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">6.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+                <li data-target="#tab-7">
+                  <div><span>7. Советы и помощь</span></div>
+                  <div class="mtab" id="tab-71">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">7.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+                <li data-target="#tab-8">
+                  <div><span>8. Формирование гардероба</span></div>
+                  <div class="mtab" id="tab-81">
+                    <div class="service-tab-img">
+                      <img src="images/tab.jpg" alt="">
+                    </div>
+                    <div class="service-tab-txt">8.
+                      Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                      ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                      Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="service-tab-content">
+              <div class="service-tab active" id="tab-1">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">1.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+              <div class="service-tab" id="tab-2">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">2.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+              <div class="service-tab" id="tab-3">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">3.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+              <div class="service-tab" id="tab-4">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">4.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+              <div class="service-tab" id="tab-5">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">5.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+              <div class="service-tab" id="tab-6">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">6.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+              <div class="service-tab" id="tab-7">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">7.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+              <div class="service-tab" id="tab-8">
+                <div class="service-tab-img">
+                  <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="service-tab-txt">8.
+                  Мы встречаемся c клиентом. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Превращаем рабочие записи и фото в техническое задание. Чтобы помочь заказчику определиться со стилем, показываем фотоколлажи наших прошлых проектов
+                  ("Галерея идей". Едем на объект — нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                  Нужно сделать точные замеры, записать, где проходят коммуникации, и обязательно всё сфотографировать.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-1">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading ">
+          <h2 class="mt-5">НЕМНОГО ОБО МНЕ</h2>
+        </div>
+        <div class="section-content">
+          <div class="video">
+            <div class="video-container">
+
+              <div class="video-wrapper" id="video-1" data-anim="base wrapper">
+                <div class="video-circle" data-anim="base left"></div>
+                <div class="video-circle" data-anim="base right"></div>
+              </div>
+
+              <div class="my">
+                <a href="#" class="play"></a>
+                <video width="100%" height="100%" id="video-01" style="background: #000" muted="muted">
+                  <source src="images/video.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="slogan">
+            <div>
+              <img src="images/slogan-4.svg">
+            </div>
+          </div>
+          <div class="items">
+            <div class="item">Более 15 лет в индустрии моды и дизайна</div>
+            <div class="item">Более 30 собственных авторских коллецкий </div>
+            <div class="item">90% клиентов рекомендуют меня своим близким</div>
+            <div class="item">Более 50 квалифицированных специалистов</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-11">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading ">
+          <h2 class="mt-2">НЕМНОГО ОБО МНЕ</h2>
+        </div>
+        <div class="section-content">
+          <div class="slogan">
+            <div>
+              <img src="images/slogan-4.svg">
+            </div>
+          </div>
+          <div class="items">
+            <div class="item">Более 15 лет в индустрии моды и дизайна</div>
+            <div class="item">Более 30 собственных авторских коллецкий </div>
+            <div class="item">90% клиентов рекомендуют меня своим близким</div>
+            <div class="item">Более 50 квалифицированных специалистов</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video-11">
+    <div class="wrapper">
+      <div class="container">
+        <div class="video">
+          <div class="video-container">
+
+            <div class="video-wrapper" id="video-2" data-anim="base wrapper">
+              <div class="video-circle" data-anim="base left"></div>
+              <div class="video-circle" data-anim="base right"></div>
+            </div>
+
+            <div class="my">
+              <a href="#" class="play"></a>
+              <video width="100%" height="100%" id="video-02" style="background: #000" muted="muted">
+                <source src="images/video.mp4" type="video/mp4">
+              </video>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-2">
+    <div class="wrapper">
+      <div class="container">
+
+      </div>
+    </div>
+  </section>
+
+  <section id="docs">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-content mt">
+          <div class="docs-text">
+            К услугам наших сотрудников и клиентов большой и светлый офис с панорамными окнами и потрясающим видом на город.
+            Можно часто увидеть сотрудников, которые допоздна задерживаются в офисе. Это связано не только с тем, что мы создаем
+            уютные условия на рабочем месте, но и с тем, что у наших агентов всегда много работы. Платим честные проценты со сделок.
+            Всегда без задержек. Это обязательное условие в нашей компании. В ответ мы требуем немного. Только честности,
+            экспертности и человеческого отношения к клиентам.
+          </div>
+          <div class="docs-imgs">
+            <div>
+              <img src="images/sert.jpg" alt="">
+            </div>
+            <div>
+              <img src="images/sert.jpg" alt="">
+            </div>
+            <div>
+              <img src="images/sert.jpg" alt="">
+            </div>
+            <div>
+              <img src="images/sert.jpg" alt="">
+            </div>
+            <div>
+              <img src="images/sert.jpg" alt="">
+            </div>
+            <div>
+              <img src="images/sert.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2>КАК МЫ БУДЕМ С ВАМИ РАБОТАТЬ</h2>
+        </div>
+        <div class="section-content">
+          <div class="how">
+
+            <div class="how-item">
+              <div>
+                <span>1</span>
+                <b>Заявка и знакомство</b>
+              </div>
+              <div>Оставьте заявку на сайте, мы договоримся о времени встречи у нас в офисе или на онлайн-консультацию</div>
+            </div>
+
+            <div class="how-item">
+              <div>
+                <span>2</span>
+                <b>Консультация, разбор гардероба</b>
+              </div>
+              <div>Проконсультиуем вас по вопросам банкротства
+                физ лиц, объясним о ходе проведения процедуры</div>
+            </div>
+
+            <div class="how-item">
+              <div>
+                <span>3</span>
+                <b>Выбор стиля</b>
+              </div>
+              <div>Детально разберем Вашу ситуацию, проведем анализ, сформируем последовательный план работы</div>
+            </div>
+
+            <div class="how-item">
+              <div>
+                <span>4</span>
+                <b>Шорпинг, покупка одежды</b>
+              </div>
+              <div>Заключим договор с установленной стоимостью  услуг, порядком оплаты и гарантией списания долгов</div>
+            </div>
+
+            <div class="how-item">
+              <div>
+                <span>5</span>
+                <b>Сопровождение и помощь</b>
+              </div>
+              <div>Соберем все документы, подготовим и направим дело в суд, будем представлять Ваши интересы</div>
+            </div>
+
+            <div class="how-item">
+              <div>
+                <span>6</span>
+                <b>Полное обновление гардероба</b>
+              </div>
+              <div>Через 5-7 месяцев получим постановление суда о Вашем банкротстве и списания всех долгов</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-2">
+    <div class="wrapper">
+      <div class="container clr">
+        <div class="section-content">
+          <h3><span>ПОМОГУ ВАМ СОЗДАТЬ<br>СОБСТВЕННЫЙ НЕПОВТОРИМЫЙ СТИЛЬ</span></h3>
+          <ul class="checklist">
+            <li>Как правильно подобрать цветовые решения и материал</li>
+            <li>Основные стили в выборе гардероба</li>
+            <li>Как правильно подчеркнуть и скрыть особенности фигуры</li>
+            <li>Правило формирования личного гардероба</li>
+            <li>Актуальные тренды в моде 2023</li>
+          </ul>
+          <div class="alla">
+            <span>Алла Меллано</span>
+            <span>Стилист-имиджмейкер</span>
+          </div>
+        </div>
+      </div>
+      <div class="container how-form">
+        <h4>Как с Вами связаться?</h4>
+        <form>
+          <div class="labels">
+
+            <div>
+              <input class="hidden" type="radio" name="spopsob" id="sposob-1" checked>
+              <label for="sposob-1">
+                <div class="green"><img src="images/wa-2.svg"></div>
+                <div>WhatsApp</div>
+              </label>
+            </div>
+            <div>
+              <input class="hidden" type="radio" name="spopsob" id="sposob-2">
+              <label for="sposob-2">
+                <div class="blue"><img src="images/tg-2.svg"></div>
+                <div>Telegram</div>
+              </label>
+            </div>
+            <div>
+              <input class="hidden" type="radio" name="spopsob" id="sposob-3">
+              <label for="sposob-3">
+                <div class="dark"><img src="images/tf-2.svg"></div>
+                <div>Позвонить</div>
+              </label>
+            </div>
+
+          </div>
+
+          <div class="form">
+
+            <div>
+              <label>Имя</label>
+              <input type="text" class="input" placeholder="Екатерина">
+            </div>
+
+            <div>
+              <label>Телефон<span class="red">*</span></label>
+              <input type="text" class="input" placeholder="+7 (923) 123-45-67">
+            </div>
+
+            <div>
+              <label>&nbsp;</label>
+              <button type="button" class="btn">Отправить заявку</button>
+            </div>
+
+          </div>
+          <div class="text"><span class="red">*</span>Поля обязательные для заполнения</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-3">
+    <div class="wrapper">
+      <div class="container">
+        <div class="img"></div>
+        <div class="section-content">
+          <h4>
+            <span>Алла Меллано</span>
+            <span>Стилист-имиджмейкер</span>
+          </h4>
+          <div class="intro">“Помогу Вам создать собственный неповторимый неповторимый стиль”</div>
+          <ul class="checklist">
+            <li>Как правильно подобрать цветовые решения и материал</li>
+            <li>Основные стили в выборе гардероба</li>
+            <li>Как правильно подчеркнуть и скрыть особенности фигуры</li>
+            <li>Правило формирования личного гардероба</li>
+            <li>Актуальные тренды в моде 2023</li>
+          </ul>
+          <div class="how-form">
+            <h4>Как с Вами связаться?</h4>
+            <form>
+              <div class="labels">
+
+                <div>
+                  <input class="hidden" type="radio" name="spopsob" id="sposob-1" checked>
+                  <label for="sposob-1">
+                    <div class="green"><img src="images/wa-2.svg"></div>
+                    <div>WhatsApp</div>
+                  </label>
+                </div>
+                <div>
+                  <input class="hidden" type="radio" name="spopsob" id="sposob-2">
+                  <label for="sposob-2">
+                    <div class="blue"><img src="images/tg-2.svg"></div>
+                    <div>Telegram</div>
+                  </label>
+                </div>
+                <div>
+                  <input class="hidden" type="radio" name="spopsob" id="sposob-3">
+                  <label for="sposob-3">
+                    <div class="dark"><img src="images/tf-2.svg"></div>
+                    <div>Позвонить</div>
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="form">
+
+                <div>
+                  <label>Имя</label>
+                  <input type="text" class="input" placeholder="Екатерина">
+                </div>
+
+                <br>
+
+                <div>
+                  <label>Телефон<span class="red">*</span></label>
+                  <input type="text" class="input" placeholder="+7 (923) 123-45-67">
+                </div>
+
+                <div>
+                  <label>&nbsp;</label>
+                  <button type="button" class="btn">Отправить заявку</button>
+                </div>
+
+              </div>
+              <div class="text"><span class="red">*</span>Поля обязательные для заполнения</div>
+
+              <br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fashions">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="mt-6">ПРИМЕРЫ ОБРАЗОВ</h2>
+        </div>
+        <div class="section-content">
+          <div class="fashions">
+
+            <div class="fashion">
+              <div>
+                <div class="swiper swiper-fashion swiper-fashion-1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-fashion">
+                      <img src="images/ob-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide swiper-slide-fashion">
+                      <img src="images/ob-2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="fashion-nav">
+                  <div class="swiper-button-prev swiper-button-next-fashion-1"></div>
+                  <div class="swiper-button-next swiper-button-prev-fashion-1"></div>
+                  <div class="swiper-pagination swiper-pagination-fashion-1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="fashion">
+              <div>
+                <div class="swiper swiper-fashion swiper-fashion-2">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-fashion">
+                      <img src="images/ob-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide swiper-slide-fashion">
+                      <img src="images/ob-2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="fashion-nav">
+                  <div class="swiper-button-prev swiper-button-next-fashion-2"></div>
+                  <div class="swiper-button-next swiper-button-prev-fashion-2"></div>
+                  <div class="swiper-pagination swiper-pagination-fashion-2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="fashion">
+              <div>
+                <div class="swiper swiper-fashion swiper-fashion-3">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-fashion">
+                      <img src="images/ob-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide swiper-slide-fashion">
+                      <img src="images/ob-2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="fashion-nav">
+                  <div class="swiper-button-prev swiper-button-next-fashion-3"></div>
+                  <div class="swiper-button-next swiper-button-prev-fashion-3"></div>
+                  <div class="swiper-pagination swiper-pagination-fashion-3"></div>
+                </div>
+              </div>
+            </div>
+            <button class="show-btn-show" type="button">Показать еще</button>
+            <div class="btn-show">
+              <div class="fashion">
+                <div>
+                  <div class="swiper swiper-fashion swiper-fashion-4">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper-slide-fashion">
+                        <img src="images/ob-1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide swiper-slide-fashion">
+                        <img src="images/ob-2.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="fashion-nav">
+                    <div class="swiper-button-prev swiper-button-next-fashion-4"></div>
+                    <div class="swiper-button-next swiper-button-prev-fashion-4"></div>
+                    <div class="swiper-pagination swiper-pagination-fashion-4"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="fashion">
+                <div>
+                  <div class="swiper swiper-fashion swiper-fashion-5">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper-slide-fashion">
+                        <img src="images/ob-1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide swiper-slide-fashion">
+                        <img src="images/ob-2.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="fashion-nav">
+                    <div class="swiper-button-prev swiper-button-next-fashion-5"></div>
+                    <div class="swiper-button-next swiper-button-prev-fashion-5"></div>
+                    <div class="swiper-pagination swiper-pagination-fashion-5"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="fashion">
+                <div>
+                  <div class="swiper swiper-fashion swiper-fashion-6">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper-slide-fashion">
+                        <img src="images/ob-1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide swiper-slide-fashion">
+                        <img src="images/ob-2.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="fashion-nav">
+                    <div class="swiper-button-prev swiper-button-next-fashion-6"></div>
+                    <div class="swiper-button-next swiper-button-prev-fashion-6"></div>
+                    <div class="swiper-pagination swiper-pagination-fashion-6"></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="social">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Я В СОЦ СЕТЯХ</h2>
+        </div>
+        <div class="section-content">
+          <div class="social">
+
+            <div class="social-item">
+              <div>
+                <div class="social-img">
+                  <img src="images/youtube1.png">
+                </div>
+                <div class="social-link">
+                  <a href="#">Перейти</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-item">
+              <div>
+                <div class="social-img">
+                  <img src="images/vk.png">
+                </div>
+                <div class="social-link">
+                  <a href="#">Перейти</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-item">
+              <div>
+                <div class="social-img">
+                  <img src="images/insta.png">
+                </div>
+                <div class="social-link">
+                  <a href="#">Перейти</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sert">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2>ПОДАРОЧНЫЙ СЕРТИФИКАТ</h2>
+        </div>
+        <div class="section-content clr">
+          <div class="sert">
+            <div class="sert-text">
+              Порадуйте близкого человека, сделайте один из лучших подарков, который способен изменить жизнь в самое короткое время, благодаря внешнему преображению!
+            </div>
+            <div class="sert-img">
+              <div>
+                <img src="images/sert.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sertificat">
+    <div class="wrapper">
+      <div class="container">
+
+        <form id="form-sertificat">
+
+          <div class="sertificat-items">
+
+            <div class="sertificat-item">
+              <input type="radio" class="hidden" name="sertificat" id="sertificat-1" checked>
+              <label for="sertificat-1">
+                <span><b>STANDART</b></span>
+                <span>50 € / 4 500 ₽</span>
+              </label>
+            </div>
+
+            <div class="sertificat-item">
+              <input type="radio" class="hidden" name="sertificat" id="sertificat-2">
+              <label for="sertificat-2">
+                <span><b>LUXE</b></span>
+                <span>70 € / 6 200 ₽</span>
+              </label>
+            </div>
+
+            <div class="sertificat-item">
+              <input type="radio" class="hidden" name="sertificat" id="sertificat-3">
+              <label for="sertificat-3">
+                <span><b>EXCLUSIVE</b></span>
+                <span>100 € / 8 900 ₽</span>
+              </label>
+            </div>
+
+          </div>
+
+          <div class="sertificat-form">
+            <div class="sertificat-form-row">
+              <input class="input" type="text" name="name" placeholder="Екатерина">
+            </div>
+            <div class="sertificat-form-row">
+              <input class="input" type="text" name="phone" placeholder="+7 (723) 123-45-67">
+            </div>
+            <div class="sertificat-form-row">
+              <button class="btn" type="button">Отправить заявку</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="mt-5">ЧАСТЫЕ ВОПРОСЫ</h2>
+        </div>
+        <div class="section-content">
+          <div class="faq-tabs">
+
+            <div class="faq-tab">
+              <div class="faq-tab-head">Название одного из часто задаваемых вопросов</div>
+              <div class="faq-tab-content">
+                <p>Однозначно, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                  Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня напрямую зависит от прогресса профессионального сообщества.
+                  Следует отметить, что укрепление и развитие внутренней структуры не даёт нам иного выбора, кроме определения прогресса профессионального сообщества.</p>
+                <p>Приятно, граждане, наблюдать, как акционеры крупнейших компаний, инициированные исключительно синтетически, заблокированы в рамках своих собственных
+                  рациональных ограничений. Как принято считать, сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут
+                  быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+              </div>
+            </div>
+
+            <div class="faq-tab">
+              <div class="faq-tab-head">Название одного из часто задаваемых вопросов</div>
+              <div class="faq-tab-content">
+                <p>Однозначно, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                  Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня напрямую зависит от прогресса профессионального сообщества.
+                  Следует отметить, что укрепление и развитие внутренней структуры не даёт нам иного выбора, кроме определения прогресса профессионального сообщества.</p>
+                <p>Приятно, граждане, наблюдать, как акционеры крупнейших компаний, инициированные исключительно синтетически, заблокированы в рамках своих собственных
+                  рациональных ограничений. Как принято считать, сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут
+                  быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+              </div>
+            </div>
+
+            <div class="faq-tab">
+              <div class="faq-tab-head">Название одного из часто задаваемых вопросов</div>
+              <div class="faq-tab-content">
+                <p>Однозначно, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                  Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня напрямую зависит от прогресса профессионального сообщества.
+                  Следует отметить, что укрепление и развитие внутренней структуры не даёт нам иного выбора, кроме определения прогресса профессионального сообщества.</p>
+                <p>Приятно, граждане, наблюдать, как акционеры крупнейших компаний, инициированные исключительно синтетически, заблокированы в рамках своих собственных
+                  рациональных ограничений. Как принято считать, сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут
+                  быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+              </div>
+            </div>
+
+            <div class="faq-tab">
+              <div class="faq-tab-head">Название одного из часто задаваемых вопросов</div>
+              <div class="faq-tab-content">
+                <p>Однозначно, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                  Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня напрямую зависит от прогресса профессионального сообщества.
+                  Следует отметить, что укрепление и развитие внутренней структуры не даёт нам иного выбора, кроме определения прогресса профессионального сообщества.</p>
+                <p>Приятно, граждане, наблюдать, как акционеры крупнейших компаний, инициированные исключительно синтетически, заблокированы в рамках своих собственных
+                  рациональных ограничений. Как принято считать, сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут
+                  быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+              </div>
+            </div>
+
+            <div class="faq-tab">
+              <div class="faq-tab-head">Название одного из часто задаваемых вопросов</div>
+              <div class="faq-tab-content">
+                <p>Однозначно, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                  Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня напрямую зависит от прогресса профессионального сообщества.
+                  Следует отметить, что укрепление и развитие внутренней структуры не даёт нам иного выбора, кроме определения прогресса профессионального сообщества.</p>
+                <p>Приятно, граждане, наблюдать, как акционеры крупнейших компаний, инициированные исключительно синтетически, заблокированы в рамках своих собственных
+                  рациональных ограничений. Как принято считать, сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут
+                  быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+              </div>
+            </div>
+
+            <div class="faq-tab">
+              <div class="faq-tab-head">Название одного из часто задаваемых вопросов</div>
+              <div class="faq-tab-content">
+                <p>Однозначно, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                  Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня напрямую зависит от прогресса профессионального сообщества.
+                  Следует отметить, что укрепление и развитие внутренней структуры не даёт нам иного выбора, кроме определения прогресса профессионального сообщества.</p>
+                <p>Приятно, граждане, наблюдать, как акционеры крупнейших компаний, инициированные исключительно синтетически, заблокированы в рамках своих собственных
+                  рациональных ограничений. Как принято считать, сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут
+                  быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+              </div>
+            </div>
+
+            <div class="faq-tab">
+              <div class="faq-tab-head">Название одного из часто задаваемых вопросов</div>
+              <div class="faq-tab-content">
+                <p>Однозначно, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                  Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня напрямую зависит от прогресса профессионального сообщества.
+                  Следует отметить, что укрепление и развитие внутренней структуры не даёт нам иного выбора, кроме определения прогресса профессионального сообщества.</p>
+                <p>Приятно, граждане, наблюдать, как акционеры крупнейших компаний, инициированные исключительно синтетически, заблокированы в рамках своих собственных
+                  рациональных ограничений. Как принято считать, сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут
+                  быть смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="wrapper">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Блог</h2>
+        </div>
+        <div class="section-content">
+
+          <div class="swiper-button-prev swiper-button-prev-blog"></div>
+          <div class="swiper-button-next swiper-button-next-blog"></div>
+
+          <div class="swiper swiper-blog">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_1.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">Новые тренды в моде 2023</div>
+                </a>
+              </div>
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_2.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">ТОП-10 лучших интернет-магазинов по покупке одежды</div>
+                </a>
+              </div>
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_3.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">Полезные советы при выборе и покупке одежды в магазине</div>
+                </a>
+              </div>
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_4.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">Пошив одежды на заказ, на что необходимо обрать внимание</div>
+                </a>
+              </div>
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_1.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">Новые тренды в моде 2023</div>
+                </a>
+              </div>
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_2.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">ТОП-10 лучших интернет-магазинов по покупке одежды</div>
+                </a>
+              </div>
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_3.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">Полезные советы при выборе и покупке одежды в магазине</div>
+                </a>
+              </div>
+              <div class="swiper-slide swiper-slide-blog">
+                <a class="swiper-item" href="content.html">
+                  <div class="swiper-img">
+                    <img src="images/slider_blog_4.jpg" alt="">
+                  </div>
+                  <div class="swiper-title">Пошив одежды на заказ, на что необходимо обрать внимание</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination swiper-pagination-blog"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrapper">
+      <div class="container">
+        <div><span class="lh"><a href="#">Политика компании</a> в отношении обработки персональных данных</span></div>
+        <div>Copyright © 2023. «Alla Mellano». Все права защищены</div>
+        <div><span><a href="#">WEBBEES</a> - Создание и продвижение сайтов</span></div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<link rel="stylesheet" href="fonts/stylesheet.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

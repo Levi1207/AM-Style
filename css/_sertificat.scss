@@ -1,0 +1,182 @@
+.sertificat-items {
+  background: #fff;
+  line-height: 0;
+  font-size: 0;
+  text-align: center;
+  padding: 25px 15px 15px 15px;
+}
+
+.sertificat-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 15px;
+  padding: 0 15px;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    width: 33.333%;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 16px;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  input {
+    &:checked {
+      + label {
+        b {
+          &:after {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+
+    @media (min-width: 992px) {
+      font-size: 26px;
+    }
+
+    + span {
+      text-transform: none;
+      font-weight: 400;
+      font-size: 16px;
+
+      @media (min-width: 992px) {
+        font-size: 20px;
+      }
+    }
+
+    b {
+      position: relative;
+      display: inline-block;
+
+      &:before {
+        content: '';
+        width: 24px;
+        height: 24px;
+        border: #acacac solid 1px;
+        border-radius: 50%;
+        position: absolute;
+        left: -30px;
+        top: 3px;
+
+        @media (min-width: 992px) {
+          top: 7px;
+        }
+      }
+
+      &:after {
+        content: '';
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        position: absolute;
+        background: #E1B43C;
+        left: -26px;
+        top: 7px;
+        display: none;
+
+        @media (min-width: 992px) {
+          top: 11px;
+        }
+      }
+    }
+  }
+}
+
+.sertificat-form {
+  line-height: 0;
+  font-size: 0;
+  text-align: center;
+  background: #fff;
+
+  @media (min-width: 768px) {
+    //margin: 0 -15px;
+  }
+
+  &-row {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 14px;
+
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+
+    @media (min-width: 992px) {
+      width: 33.333%;
+      font-size: 16px;
+    }
+  }
+}
+
+#sert {
+  margin-bottom: 0;
+
+  .section-content {
+
+    background-image: url(../images/alla-sertifikat.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 160px 300px;
+    padding-top: 280px;
+    padding-bottom: 0;
+
+    @media (min-width: 992px) {
+      padding-top: 0;
+      background-position: 90% bottom;
+      background-size: auto;
+    }
+  }
+}
+
+.sert {
+
+  background: #fff;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    float: left;
+    width: 60%;
+    text-align: center;
+    padding: 25px;
+    background: none;
+  }
+
+  &-text {
+
+    padding: 15px;
+
+    @media (min-width: 992px) {
+      padding: 15px 50px;
+    }
+  }
+
+  &-img {
+    div {
+      max-width: 539px;
+      display: inline-block;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

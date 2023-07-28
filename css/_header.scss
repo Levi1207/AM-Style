@@ -1,0 +1,346 @@
+header {
+
+  position: relative;
+
+  &.index {
+
+    background-image: url(../images/header.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    //background-size: contain;
+
+    //@media (min-width: 992px) {
+    height: 740px;
+    //}
+
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+
+      width: 278px;
+      height: 552px;
+      bottom: 0;
+      left: 50%;
+      margin-left: -139px;
+      background: url(../images/alla-top-2.png);
+      z-index: 1;
+
+      @media (min-width: 992px) {
+        width: 217px;
+        height: 309px;
+        bottom: 0;
+        left: 30%;
+        background: url(../images/alla-top.png);
+        z-index: 1;
+      }
+    }
+  }
+
+  &.inner {
+    background: #444;
+  }
+
+  .logo {
+    float: left;
+    padding: 30px 0;
+
+    a {
+      display: block;
+      font-size: 0;
+      line-height: 0;
+      width: 95px;
+
+      @media (min-width: 992px) {
+        width: 110px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .mobile {
+
+    float: right;
+    padding-top: 25px;
+
+    @media (min-width: 620px) {
+      display: none;
+    }
+
+    .social {
+      overflow: hidden;
+      margin: 0;
+
+      a {
+        display: block;
+        float: left;
+        margin-left: 13px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .btns {
+      overflow: hidden;
+      padding-top: 10px;
+
+      > div {
+        float: left;
+      }
+
+      .lng {
+        margin-right: 15px;
+      }
+
+      .call {
+        a {
+          width: auto;
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+
+  .menu {
+    margin-left: 115px;
+    overflow: hidden;
+    display: none;
+
+    @media (min-width: 620px) {
+      padding: 45px 0 0 0;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      margin-left: 130px;
+    }
+
+    @media (min-width: 992px) {
+      margin-left: 160px;
+      padding: 50px 0 0 0;
+    }
+  }
+
+  .lng {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 36px;
+    margin-right: 25px;
+
+    div {
+      width: 98px;
+      height: 28px;
+      border: #fff solid 1px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 26px;
+      float: left;
+      width: 50%;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      &.active {
+        background: #fff;
+        color: #787878;
+      }
+    }
+  }
+
+  .youtube, .write {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 36px;
+
+    a {
+      display: block;
+      height: 36px;
+      line-height: 0;
+      font-size: 0;
+      margin: 0 8px;
+
+      image {
+        width: 100%;
+      }
+
+      &.yt {
+        display: none;
+
+        @media (min-width: 768px) {
+          display: block;
+        }
+      }
+    }
+
+    span {
+      font-size: 18px;
+      display: none;
+
+      @media (min-width: 1200px) {
+        display: inline-block;
+      }
+    }
+  }
+
+  .call {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 36px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 128px;
+      height: 28px;
+      border: #fff solid 1px;
+      color: #fff;
+      transition: all .25s ease;
+
+      &:hover {
+        background: #fff;
+        color: #787878;
+      }
+
+      @media (min-width: 992px) {
+        width: 158px;
+      }
+    }
+
+    span {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      float: right;
+      font-size: 18px;
+      height: 36px;
+      padding-right: 15px;
+
+      @media (min-width: 992px) {
+        display: flex;
+      }
+    }
+  }
+
+  .slogan {
+
+    position: absolute;
+    z-index: 1;
+
+    @media (min-width: 992px) {
+      width: 590px;
+      height: 186px;
+      left: 40%;
+      top: 300px;
+      background: url(../images/slogan.svg) center no-repeat;
+      padding-top: 186px;
+      padding-left: 35px;
+    }
+
+    div {
+      @media (min-width: 992px) {
+        width: 423px;
+        height: 58px;
+        background: url(../images/slogan-2.svg);
+      }
+    }
+  }
+
+  .slogan-3 {
+
+    position: absolute;
+    top: 475px;
+    left: 50%;
+    width: 320px;
+    height: 229px;
+    margin-left: -160px;
+    z-index: 1;
+    background: url(../images/slogan-3.svg);
+
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+
+}
+
+#top {
+  padding: 15px 0;
+  color: #fff;
+}
+
+#icons {
+  background: #555;
+  color: #fff;
+  padding: 30px 0 15px 0;
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+
+  .icons {
+    line-height: 0;
+    font-size: 0;
+    text-align: center;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 50%;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+    @media (min-width: 992px) {
+      width: 16.666%;
+    }
+  }
+}
+
+#icons-top {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  display: none;
+  z-index: 10;
+
+  @media (min-width: 992px) {
+    display: block;
+  }
+
+  .icons {
+    line-height: 0;
+    font-size: 0;
+    text-align: center;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 50%;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+    @media (min-width: 992px) {
+      width: 16.666%;
+    }
+  }
+}

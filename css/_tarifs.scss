@@ -1,0 +1,65 @@
+.tarifs {
+  text-align: center;
+  line-height: 0;
+  font-size: 0;
+  @media (min-width: 768px) {
+    margin: 0 -8px;
+  }
+}
+
+.tarif {
+  line-height: 1.5;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin-bottom: 15px;
+
+  @media (min-width: 768px) {
+    width: 33.333%;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px 0;
+
+    @media (min-width: 768px) {
+      font-size: 26px;
+    }
+  }
+
+  > div {
+    border: #fff solid 1px;
+    padding: 15px 20px;
+    margin: 0 8px;
+  }
+
+  .price {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      font-size: 22px;
+      padding: 15px 0;
+    }
+  }
+
+  .btns {
+    text-align: center;
+  }
+
+  .btn {
+    max-width: 258px;
+    font-size: 14px;
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
+  }
+}

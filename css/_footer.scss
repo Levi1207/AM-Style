@@ -1,0 +1,65 @@
+footer {
+  background: #5e5e5e;
+  color: #fff;
+  font-size: 12px;
+  padding: 15px 0;
+
+  @media (min-width: 992px) {
+    font-size: 14px;
+  }
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+
+  .container {
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (min-width: 992px) {
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    > div {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      height: 25px;
+
+      @media (min-width: 992px) {
+        width: 50%;
+        height: 50px;
+      }
+
+      &:first-child,
+      &:last-child {
+        @media (min-width: 992px) {
+          width: 25%;
+        }
+      }
+
+      &:first-child {
+        @media (min-width: 992px) {
+          text-align: left;
+        }
+      }
+
+      &:last-child {
+        @media (min-width: 992px) {
+          text-align: right;
+        }
+      }
+    }
+  }
+}

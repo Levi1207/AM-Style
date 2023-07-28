@@ -1,0 +1,307 @@
+#about {
+  margin-top: 25px;
+}
+.about {
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  margin: 0 -8px;
+  &-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 15px;
+
+    @media (min-width: 576px) {
+      width: 50%;
+    }
+
+    @media (min-width: 768px) {
+      width: 33.333%;
+    }
+
+    @media (min-width: 992px) {
+      width: 25%;
+    }
+
+    > div {
+      border: #fff solid 1px;
+      margin: 0 8px;
+    }
+  }
+
+  &-text {
+
+    line-height: 1.5;
+    padding: 0 10px 15px 10px;
+
+    h3 {
+      margin: 0;
+      padding: 15px 0 10px 0;
+      text-transform: uppercase;
+      text-align: center;
+      font-width: 500;
+      font-size: 14px;
+
+      @media (min-width: 992px) {
+        font-size: 16px;
+      }
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+
+      @media (min-width: 992px) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &-img {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#about-1 {
+  height: 600px;
+  background: url(../images/about-1-bg.jpg);
+  background-position: top center;
+  position: relative;
+  display: none;
+
+  @media (min-width: 992px) {
+    display: block;
+  }
+
+  @media (min-width: 1200px) {
+    height: 1000px;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 522px;
+    height: 876px;
+    bottom: 0;
+    right: 5%;
+    background-image: url(../images/alla-about.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+    @media (min-width: 1200px) {
+      background-size: 100%;
+    }
+  }
+
+  .items {
+    line-height: 0;
+    font-size: 0;
+    text-align: center;
+    z-index: 3;
+  }
+
+  .item {
+    display: inline-flex;
+    height: 90px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1%;
+    padding: 0 20px;
+
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+
+    @media (min-width: 1200px) {
+      height: 116px;
+      width: 246px;
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 100%;
+      background-image: url(../images/l.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      //background-position: top left;
+
+      @media (min-width: 1200px) {
+        width: 48px;
+      }
+    }
+
+    &:after {
+      left: auto;
+      right: 0;
+      background-image: url(../images/r.svg);
+      //background-position: top right;
+    }
+  }
+
+  .video {
+    height: 300px;
+    //background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    @media (min-width: 1200px) {
+      height: 600px;
+    }
+
+    &-container {
+      margin-left: 10%;
+      height: 300px;
+      width: 300px;
+      //background: #5e5e5e;
+
+      @media (min-width: 1200px) {
+        height: 460px;
+        width: 460px;
+      }
+    }
+  }
+
+  .slogan {
+    text-align: center;
+    z-index: 3;
+    padding: 15px 0;
+
+    div {
+      display: inline-block;
+      width: 300px;
+
+      @media (min-width: 1200px) {
+        width: auto;
+        padding: 25px 0;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#about-11 {
+  height: 780px;
+  background: url(../images/about-1-bg.jpg);
+  background-position: top center;
+  position: relative;
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 350px;
+    height: 632px;
+    margin-left: -175px;
+    background: url(../images/alla-about-3.png);
+  }
+
+  .items {
+    line-height: 0;
+    font-size: 0;
+    text-align: center;
+    z-index: 3;
+  }
+
+  .item {
+    display: inline-flex;
+    height: 80px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1%;
+    padding: 0 20px;
+    margin-bottom: 25px;
+
+    font-size: 12px;
+    line-height: 1.2;
+    color: #fff;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 100%;
+      background-image: url(../images/l.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      @media (min-width: 1200px) {
+        width: 48px;
+      }
+    }
+
+    &:after {
+      left: auto;
+      right: 0;
+      background-image: url(../images/r.svg);
+    }
+  }
+
+  .slogan {
+    text-align: center;
+    z-index: 3;
+    padding: 15px 0;
+
+    div {
+      display: inline-block;
+      width: 300px;
+
+      @media (min-width: 1200px) {
+        width: auto;
+        padding: 25px 0;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .section-content {
+    padding-top: 220px;
+
+    @media (min-width: 353px) {
+      padding-top: 430px;
+    }
+
+    @media (min-width: 693px) {
+      padding-top: 540px;
+    }
+  }
+}
+
+#video-11 {
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+
+  .video-container {
+    width: 300px !important;
+    margin: 0 auto;
+  }
+}

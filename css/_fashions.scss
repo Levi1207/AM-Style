@@ -1,0 +1,100 @@
+.fashions {
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  margin: 0 -10px;
+
+  @media (min-width: 768px) {
+    margin: 0 -16px;
+  }
+
+  @media (min-width: 992px) {
+    margin: 0 -8px;
+  }
+
+  .fashion {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 16px;
+
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+
+    @media (min-width: 992px) {
+      width: 33.333%;
+    }
+
+    > div {
+      margin: 0 8px;
+      border: #fff solid 1px;
+    }
+
+    &-nav {
+      overflow: hidden;
+      height: 40px;
+      text-align: center;
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 58px;
+    height: 40px;
+    margin-top: 0;
+    color: #444;
+    opacity: .5;
+    transition: all .25s ease;
+
+    &:after {
+      font-size: 22px;
+    }
+
+    &:hover {
+      background: #444;
+      color: #fff;
+    }
+  }
+
+  .swiper-button-prev {
+    float: left;
+    border-right: #fff solid 1px;
+    &:hover {
+      border-right: #444 solid 1px;
+    }
+  }
+
+  .swiper-button-next {
+    float: right;
+    border-left: #fff solid 1px;
+    &:hover {
+      border-left: #444 solid 1px;
+    }
+  }
+
+  .swiper-pagination {
+    margin: 0 60px;
+    position: relative;
+    left: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    display: inline-flex;
+    width: auto !important;
+    height: 40px;
+    align-items: center;
+  }
+}
+
+.swiper-slide-fashion {
+  line-height: 0;
+  font-size: 0;
+
+  img {
+    width: 100%;
+  }
+}

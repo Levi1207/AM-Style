@@ -1,0 +1,25 @@
+.docs {
+
+  &-text {
+    @media (min-width: 768px) {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+
+  &-imgs {
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+
+    div {
+      display: inline-block;
+      vertical-align: top;
+      width: 191px;
+      height: 252px;
+      background: url(../images/ramka.png);
+      padding-top: 25px;
+      margin: 5px 4px;
+    }
+  }
+}
